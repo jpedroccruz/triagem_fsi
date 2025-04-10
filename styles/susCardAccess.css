@@ -1,0 +1,116 @@
+@import url('https://fonts.cdnfonts.com/css/konkhmer-sleokchher');
+@import url('https://fonts.cdnfonts.com/css/shameimaru-sans');
+
+* {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #68B28C;
+}
+
+header {
+  width: 500px;
+  margin: 0 auto;
+  padding-bottom: 25px;
+  padding-top: 50px;
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  width: 150px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Konkhmer Sleokchher";
+  line-height: 40px;
+  font-size: 3.2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 400px;
+  background-color: #fff;
+  border-radius: 40px;
+  padding: 25px;
+}
+
+
+h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  font-family: "Shameimaru Sans";
+  margin-top: 8px;
+  color: #000;
+}
+
+input {
+  background-color: #D9D9D9;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 30px 0 5px 0 !important;
+  border: none;
+  font-size: 2rem;
+  margin: 0 16px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0; 
+}
+
+a {
+  font-size: 1.5rem;
+  font-family: "Shameimaru Sans";
+  text-align: center;
+  padding-top: 10px;
+  text-decoration: underline;
+  color: #008441;
+}
+
+.button__div {
+  padding-top: 73px;
+}
+
+button {
+  width: 100%;
+  font-size: 2.4rem;
+  background-color: #008441;
+  color: #fff;
+  font-family: "Shameimaru Sans";
+  border: none;
+  padding: 20px;
+  border-radius: 40px;
+  font-weight: bold;
+  transition: background 0.5s;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #01a051;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+}
+
+p {
+  font-size: 1.3rem;
+  font-family: "Shameimaru Sans";
+  font-weight: 400;
+  margin: 10px;
+}
