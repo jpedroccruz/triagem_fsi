@@ -4,24 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Triagem rápida</title>
-  <link rel="stylesheet" href="styles/cpfAccess.css">
-  <link rel="shortcut icon" href="public/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/styles/cpfAccess.css">
+  <link rel="shortcut icon" href="/public/favicon.ico" type="image/x-icon">
 </head>
 <body>
   <header>
-    <img src="public/upa24h.png" alt="UPA 24Horas UNIDADE DE PRONTO ATENDIMENTO">
+    <img src="/public/upa24h.png" alt="UPA 24Horas UNIDADE DE PRONTO ATENDIMENTO">
   </header>
   <main>
     <h2>Insira o número do seu CPF:</h2>
-    <input type="text" name="susId" >
+    <input type="text" name="cpf" oninput="this.value = this.value.replace(/[^0-9.-]/g, '')">
     <div class="button__div">
       <button>COMEÇAR TRIAGEM</button>
     </div>
   </main>
   <footer>
     <p>Suported by</p>
-    <img src="public/openai-logo.png" alt="OpenAI Logo">
+    <img src="/public/openai-logo.png" alt="OpenAI Logo">
   </footer>
 </body>
-<script src="scripts/cpfAccess.js"></script>
+<script src="/scripts/cpfAccess.js"></script>
 </html>

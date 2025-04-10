@@ -14,8 +14,8 @@
   </header>
   <main>
     <h2>Insira o número do seu cartão do SUS:</h2>
-    <input type="text" name="susId" >
-    <a href="cpfAccess.html">Não sei o número do meu cartão</a>
+    <input type="text" name="susId" oninput="this.value = this.value.replace(/[^0-9 ]/g, '')">
+    <a href="pages/cpfAccess.html">Não sei o número do meu cartão</a>
     <div class="button__div">
       <button>COMEÇAR TRIAGEM</button>
     </div>

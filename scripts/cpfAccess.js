@@ -1,6 +1,4 @@
 document.querySelector("input").addEventListener('keypress', function() {
-  this.value = this.value.replace(/[^0-9.-]/g, '')
-
   const InputLenght = this.value.length
   
   if (InputLenght > 13) {
