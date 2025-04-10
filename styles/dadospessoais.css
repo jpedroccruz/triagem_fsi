@@ -1,0 +1,165 @@
+@import url('https://fonts.cdnfonts.com/css/konkhmer-sleokchher');
+@import url('https://fonts.cdnfonts.com/css/shameimaru-sans');
+
+/*
+    FONTES:
+    - 'Konkhmer Sleokchher' -> título
+    - 'Shameimaru Sans' -> texto
+    
+    UNIDADES DE MEDIDA:
+    - font-size -> em pt
+    - width de imagens -> x%
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* BACKGROUNDS E IMAGENS*/
+body{
+    background-color: #68b28c;
+    padding-top: 20px;
+}
+
+h1{
+    font-family: 'Konkhmer Sleokchher';
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.upa{
+    width: 7%;
+    margin-left: 4%;
+    margin-top: 2%;
+    position: absolute;
+}
+
+.caixa{
+    background-color: white;
+    padding: 2% 0%;
+    width: 32%;
+    border-radius: 40px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.separate{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/*ESTILIZAÇÃO DOS INPUTS DOS DADOS PESSOAIS*/
+label{
+    font-family: 'Shameimaru Sans';
+    font-size: 11px;
+    color: #272728;
+    margin-bottom: 5px !important;
+}
+
+select{
+    font-family: 'Shameimaru Sans';
+    font-size: 11px;
+    border-radius: 7px;
+    border: 1px solid black;
+    height: 20px;
+    padding: 0 5px;
+    margin-top: 5px;
+}
+
+input{
+    font-family: 'Shameimaru Sans';
+    font-size: 11px;
+    border-radius: 7px;
+    border: 1px solid black;
+    height: 20px;
+    margin-top: 5px;
+    padding: 0 5px;
+}
+
+footer{
+    margin-top: 1%;
+}
+
+#continuar{
+    background-color: #008441;
+    font-family: 'Konkhmer Sleokchher';
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 100px;
+    border: none;
+    width: 87%;
+    text-align: center;
+    padding: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#nome{
+    width: 306px; /* largura do input */
+}
+
+#sexo{
+    width: 160px;
+}
+
+#bairro{
+    width: 210px;
+}
+
+#rua{
+    width: 210px;
+}
+
+#cidade{
+    width: 170px;
+}
+
+#uf{
+    width: 50px;
+}
+
+#num{
+    width: 50px;
+}
+
+#profissao{
+    width: 100px;
+}
+
+#estadocivil{
+    width: 150px;
+}
+
+#data{
+    width: 130px;
+}
+
+#cor{
+    width: 150px;
+}
+
+.dados1{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    gap: 10px;
+}
+
+
+/* ESTILIZAÇÃO FOOTER */
+#supportedby{
+    font-family: 'Shameimaru Sans';
+    font-size: 8px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#logoIA{
+    width: 5%;
+    padding-left: 47%;
+    margin-bottom: 20px;
+}

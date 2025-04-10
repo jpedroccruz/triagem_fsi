@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/styles/dadospessoais.css">
+        <title>Dados Pessoais</title>
+
+    </head>
+    <body>
+        <img class="upa" src="/styles/upa24h.png" alt="Logo da UPA">
+        <h1>DADOS PESSOAIS</h1>
+
+        <div class="caixa">
+            <form>
+                <div class="dados1">
+                    
+                    <div>
+                        <label for="nome">Nome completo:</label><br>
+                        <input type="text" id="nome" name="name"><br>
+                    </div>
+                    
+                    <div class="separate">
+                        <div>
+                            <label for="data">Data de Nascimento:</label><br>
+                            <input type="text" id="data" name="born_at">
+                        </div>
+
+                        <div>
+                            <label for="sexo">Sexo:</label><br>
+                            <select id="sexo" name="sex">
+                                <option value="0"></option>
+                                <option value="1">Feminino</option>
+                                <option value="2">Masculino</option>
+                                <option value="3">Prefiro não responder</option>
+                            </select><br>
+                        </div>
+                    </div>
+                    
+                    <div class="separate">
+                        <div>
+                            <label for="cor">Cor:</label><br>
+                            <select id="cor" name="color">
+                                <option value="0"></option>
+                                <option value="1">Branca</option>
+                                <option value="2">Preta</option>
+                                <option value="3">Parda</option>
+                                <option value="4">Amarela</option>
+                                <option value="5">Indígena</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label for="estadocivil">Estado Civil:</label><br>
+                            <select id="estadocivil" name="civil_state">
+                                <option value="0"></option>
+                                <option value="1">Solteiro</option>
+                                <option value="2">Casado</option>
+                                <option value="3">Viúvo</option>
+                                <option value="4">Divorciado</option>
+                            </select><br>
+                        </div>
+                    </div>
+
+                    <div class="separate">
+                        <div>
+                            <label for="profissao">Profissão:</label><br>
+                            <input type="text" id="profissao" name="profession">
+                        </div>
+                        
+                        <div>
+                            <label for="cidade">Cidade:</label><br>
+                            <input type="text" id="cidade" name="city"><br>
+                        </div>
+                    </div>
+                    
+                    <div class="separate">
+                        <div>
+                            <label for="bairro">Bairro:</label><br>
+                            <input type="text" id="bairro" name="neighborhood">
+                        </div>
+
+                        <div>
+                            <label for="uf">UF:</label><br>
+                            <input type="text" id="uf" name="state"><br>
+                        </div>
+                    </div>
+    
+                    <div class="separate">
+                        <div>
+                            <label for="rua">Rua:</label><br>
+                            <input type="text" id="rua" name="street">
+                        </div>
+
+                        <div>
+                            <label for="num">Número:</label><br>
+                            <input type="text" id="num" name="street_number"><br>
+                        </div>
+                    </div>
+                </div>
+
+                <button id="continuar" type="submit">CONTINUAR</button>
+            </form>
+        </div>
+
+        <footer>
+            <p id="supportedby">Supported by:</p>
+            <img id="logoIA" src="/public/openai-logo.png" alt="Logo da OPENAI">
+        </footer>
+    </body>
+</html>
