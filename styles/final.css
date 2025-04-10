@@ -1,0 +1,58 @@
+@import url('https://fonts.cdnfonts.com/css/konkhmer-sleokchher');
+@import url('https://fonts.cdnfonts.com/css/shameimaru-sans');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #68b28c;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+footer{
+    position: absolute;
+    bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.upa{
+    width: 200px;
+    margin-top: 50px;
+    margin: 100px;
+}
+
+.check{
+    width: 300px;
+}
+
+
+.IA{
+    width: 150px;
+}
+
+h1{
+    font-family: 'Konkhmer Sleokchher';
+    color: #ffffff;
+    font-size: 40px;
+}
+
+p{
+    font-family: 'Shameimaru Sans';
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+}
